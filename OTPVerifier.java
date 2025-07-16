@@ -60,7 +60,7 @@ public class OTPVerifier {
     private static boolean sendEmail(String to, String otp) {
         final String from = "dvivedigarvita@gmail.com";
         final String username = "dvivedigarvita@gmail.com";
-        final String password = "pbwezyfhwdbsykqe"; // App Password
+        final String password = "16 digit code"; // App Password
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
